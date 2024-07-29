@@ -1,0 +1,22 @@
+.jobTileContainer {
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.jobTileContainer a {
+  text-decoration: none; /* Remove underline from the Link */
+  color: inherit; /* Ensure text color is inherited from the parent */
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
